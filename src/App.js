@@ -30,7 +30,7 @@ function App() {
         />
           <Item 
           title='Model S'
-          desc='Money-back guarantee'
+          desc='$69,420'
           descLink=''
           backgroundImg={ModelS}
           leftBtnTxt='ORDER NOW'
@@ -38,7 +38,7 @@ function App() {
           rightBtnTxt='LEARN MORE'
           rightBtnLink=''
           twoButtons='true'
-          first
+
         />
           <Item 
           title='Model 3'
@@ -50,7 +50,7 @@ function App() {
           rightBtnTxt='LEARN MORE'
           rightBtnLink=''
           twoButtons='true'
-          first
+          
         />
               <Item 
           title='Model X'
@@ -62,7 +62,7 @@ function App() {
           rightBtnTxt='LEARN MORE'
           rightBtnLink=''
           twoButtons='true'
-          first
+          
         />
           <Item 
           title='Model Y'
@@ -74,7 +74,7 @@ function App() {
           rightBtnTxt='LEARN MORE'
           rightBtnLink=''
           twoButtons='true'
-          first
+          
         />
             <Item 
           title='Solar for New Roofs'
@@ -86,7 +86,7 @@ function App() {
           rightBtnTxt='LEARN MORE'
           rightBtnLink=''
           twoButtons='true'
-          first
+          
         />
         
       </div>
