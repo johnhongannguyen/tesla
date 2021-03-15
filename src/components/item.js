@@ -1,11 +1,12 @@
 import React from 'react';
 import Button from './Button';
-import {findAllByTitle} from '@testing-library/react';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import './Item.css'
 
 const Item = ({title,desc, backgroundImg, leftBtnTxt, leftBtnLink, rightBtnTxt, rightBtnLink,twoButtons, first}) =>{
     return(
         <div className='item' style={{
-
+                backgroundImage: `url(${backgroundImg})`
         }}>
             <div className='item__container'>
                 <div className='item__text'>
@@ -19,8 +20,15 @@ const Item = ({title,desc, backgroundImg, leftBtnTxt, leftBtnLink, rightBtnTxt, 
                 <div className='item__lowerThird'>
                     <div className='item__button'>
                         <Button imp='primary' text={leftBtnLink} link={leftBtnLink} />
-                            
+                          {twoButtons && (
+                              <Button imp='secondary' text={rightBtnLink} link={rightBtnLink} />
+                          )}  
                     </div>
+                    {first && (
+                        <div className='item__expand'> 
+                            <ExpandMoreIcon />
+                        </div>
+                    )}
                 </div>
             </div>
 
