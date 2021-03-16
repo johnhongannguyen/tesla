@@ -33,7 +33,7 @@ function App() {
           desc='$69,420'
           descLink=''
           backgroundImg={ModelS}
-          leftBtnTxt='ORDER NOW'
+          leftBtnTxt='CUSTOM ORDER'
           leftBtnLink=''
           rightBtnTxt='LEARN MORE'
           rightBtnLink=''
@@ -88,7 +88,18 @@ function App() {
           twoButtons='true'
           
         />
-        
+           <Item 
+          title='Accessories'
+          desc='Money-back guarantee'
+          descLink=''
+          backgroundImg={Accessories}
+          leftBtnTxt='SHOP NOW'
+          leftBtnLink=''
+          rightBtnTxt='LEARN MORE'
+          rightBtnLink=''
+         
+          
+        />
       </div>
       
     </div>
