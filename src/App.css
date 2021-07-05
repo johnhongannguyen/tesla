@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .app__itemsContainer {
     scroll-snap-type: y mandatory;
     overflow: auto;
